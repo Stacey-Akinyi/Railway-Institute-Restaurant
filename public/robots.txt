@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://railway-restaurant-management-system.lovable.app/sitemap.xml

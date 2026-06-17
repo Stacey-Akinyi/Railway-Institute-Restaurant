@@ -1,0 +1,13 @@
+# RTI Canteen
+
+> Online canteen and restaurant management system for the Railway Training Institute. Order meals, reserve tables, and browse the daily menu.
+
+## Pages
+
+- [Dashboard](/): Overview of the canteen, daily specials, and quick actions for ordering and reservations.
+- [Menu](/menu): Browse available meals, drinks, and daily specials with prices and descriptions.
+- [Reservations](/reservations): Book a table in advance for dining at the Railway Training Institute canteen.
+
+## Blog
+
+- [Benefits of Canteen Management Systems](/blog/benefits-of-canteen-management-systems): A complete guide on how automation improves efficiency, reduces food waste, and streamlines payments in institutional dining settings.

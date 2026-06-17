@@ -12,4 +12,20 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Pass standard Vite configurations safely through here:
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 1000, // Safely raises the warning limit to 1000kB
+      rollupOptions: {
+        output: {
+          // Gracefully splits heavy node_modules (like Recharts) into their own files
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return id.toString().split('node_modules/')[1].split('/')[0].toString();
+            }
+          }
+        }
+      }
+    }
+  }
 });
